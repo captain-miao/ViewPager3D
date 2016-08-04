@@ -4,19 +4,13 @@
     android:id="@+id/cv_card"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="300dp"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/iv_movie"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_height="300dp"
+        android:layout_gravity="center_vertical"
         android:scaleType="centerCrop"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:cursorVisible="false"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="top"/>
 </LinearLayout>
